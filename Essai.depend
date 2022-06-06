@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1646906564 source:c:\users\amira\onedrive\documents\irm1\c++\essai\main.cpp
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"note.h"
+	"groupe.h"
+	<fstream>
+	<vector>
+
+1645568660 c:\users\amira\onedrive\documents\irm1\c++\essai\personne.h
+	<iostream>
+	<string>
+
+1645906380 c:\users\amira\onedrive\documents\irm1\c++\essai\etudiant.h
+	"personne.h"
+
+1645697952 c:\users\amira\onedrive\documents\irm1\c++\essai\enseignant.h
+	"personne.h"
+
+1645961291 c:\users\amira\onedrive\documents\irm1\c++\essai\matiere.h
+	"enseignant.h"
+
+1645956330 c:\users\amira\onedrive\documents\irm1\c++\essai\groupemodule.h
+	"matiere.h"
+	<vector>
+
+1646513135 c:\users\amira\onedrive\documents\irm1\c++\essai\note.h
+	"matiere.h"
+	"etudiant.h"
+
+1646515196 c:\users\amira\onedrive\documents\irm1\c++\essai\groupe.h
+	"groupeModule.h"
+
